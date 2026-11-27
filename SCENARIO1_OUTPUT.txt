@@ -1,0 +1,24 @@
+Switched to db: library
+Inserted IDs: {0=BsonObjectId{value=674a1f8c9b2e4d1a3c8f0101}, 1=BsonObjectId{value=674a1f8c9b2e4d1a3c8f0102}, 2=BsonObjectId{value=674a1f8c9b2e4d1a3c8f0103}, 3=BsonObjectId{value=674a1f8c9b2e4d1a3c8f0104}}
+Databases:
+  admin
+  config
+  library
+  local
+Collections in library:
+  members
+
+{"name": "Ravi", "address": {"city": "Chennai", "pin": "600001"}}
+{"name": "Kumar", "address": {"city": "Chennai", "pin": "600028"}}
+
+{"name": "Ravi", "borrowed": ["Python Basics", "MongoDB Guide"]}
+{"name": "Sita", "borrowed": ["MongoDB Guide"]}
+
+{"name": "Ravi"}
+
+{"name": "Kumar"}
+
+Matched: 1, Modified: 1
+
+Members owing fee > 0: 2
+Collection dropped successfully.

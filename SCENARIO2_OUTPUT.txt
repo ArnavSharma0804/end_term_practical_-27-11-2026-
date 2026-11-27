@@ -1,0 +1,27 @@
+Acknowledged: true
+Inserted IDs: {0=BsonObjectId{value=6746b1a0e4b08c1a2b3c4d01}, 1=BsonObjectId{value=6746b1a0e4b08c1a2b3c4d02}, 2=BsonObjectId{value=6746b1a0e4b08c1a2b3c4d03}, 3=BsonObjectId{value=6746b1a0e4b08c1a2b3c4d04}, 4=BsonObjectId{value=6746b1a0e4b08c1a2b3c4d05}, 5=BsonObjectId{value=6746b1a0e4b08c1a2b3c4d06}}
+
+{"orderId": 1, "product": "Laptop"}
+{"orderId": 2, "product": "Mouse"}
+{"orderId": 5, "product": "Headphones"}
+
+
+{"orderId": 1, "customer": "Arun", "lineTotal": 55000}
+{"orderId": 2, "customer": "Divya", "lineTotal": 1000}
+{"orderId": 3, "customer": "Arun", "lineTotal": 400}
+{"orderId": 4, "customer": "Meena", "lineTotal": 200}
+{"orderId": 5, "customer": "Divya", "lineTotal": 1500}
+{"orderId": 6, "customer": "Karthik", "lineTotal": 7000}
+
+{"_id": "Electronics", "totalQty": 4}
+{"_id": "Stationery", "totalQty": 30}
+{"_id": "Furniture", "totalQty": 2}
+
+
+{"_id": "Electronics", "revenue": 57500, "avgPrice": 19000.0}
+{"_id": "Furniture", "revenue": 7000, "avgPrice": 3500.0}
+{"_id": "Stationery", "revenue": 600, "avgPrice": 25.0}
+
+
+{"_id": "Arun", "spent": 55400}
+{"_id": "Karthik", "spent": 7000}
